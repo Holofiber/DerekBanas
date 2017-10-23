@@ -96,5 +96,5 @@ namespace Tutorial_4
         {
             Console.WriteLine("The car was painted {0} with the code {1}", cc, (int)cc);
         }
-            }
+    }
 }
