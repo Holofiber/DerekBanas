@@ -11,6 +11,7 @@ namespace Tutorial_9
         static void Main(string[] args)
         {
             Shape[] shapes = {new Circle(5), new Rectangle(4, 5)};
+            
 
             foreach (Shape s in shapes)
             {

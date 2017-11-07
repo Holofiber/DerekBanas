@@ -17,7 +17,7 @@ namespace Tutorial_9
             Lenght = lenght;
             Width = width;
         }
-        public override double Area()
+        public  double Areaasd()
         {
             return Lenght * Width;
         }
@@ -26,6 +26,11 @@ namespace Tutorial_9
         {
             base.GetInfo();
             Console.WriteLine($"It has a Lenght of {Lenght} and Width of {Width}");
+        }
+
+        public override double Area()
+        {
+            throw new NotImplementedException();
         }
     }
 }
